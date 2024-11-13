@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "Jenny Lind",
   "license": "ISC",
-  "source": "src/index.html",
+  "source": "index.html",
   "scripts": {
     "start": "parcel start",
     "build": "parcel build"
