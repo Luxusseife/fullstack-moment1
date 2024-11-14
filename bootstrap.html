@@ -33,40 +33,44 @@
             </li>
         </ul>
 
-        <div class="container">
+        <div class="container mb-5">
             <h2>BOOTSTRAP</h2>
 
-            <p>
-                På denna undersida har det populära och välanvända ramverket Bootstrap använts via CDN. Ramverkets styrka
-                ligger i dess omfattande stöd för moderna webbläsare och förinställda, responsiva stilar och komponenter
-                som gör det snabbt och smidigt att utveckla professionella webbsidor. Bootstrap har en gedigen 
-                <a href="https://getbootstrap.com/">dokumentation</a> som ger en tydlig introduktion till hur allt fungerar 
-                med särskilt fokus på hur modifiering av style kan göras med Sass. Men då dokumentationen är stor och mycket detaljerad, 
-                innebar det att det tog en del tid att hitta de specifika klasser som behövdes för att hantera tabeller, 
-                formulär, samt anpassningar för margin, padding och färg. Där visade sig W3Schools 
-                <a href="https://www.w3schools.com/bootstrap5/index.php">Bootstrap-tutorial</a> vara ett effektivt stöd för 
-                mig och utifrån denna kunde jag sedan jobba mer fokuserat med tabellen, formuläret, färgsättning och strukturering.
-                <br>
-                <br>
-                Arbetet med formuläret krävde lite extra tid, särskilt eftersom formulär i Bootstrap behöver en
-                specifik struktur för att fungera vilken var ny för mig. Tabellen var däremot lätt att anpassa med olika klasser för färg, 
-                hover-effekter och ramar, vilket gjorde att jag tog mig tid att utforska olika designalternativ. Tack vare Bootstrap 
-                behövde jag mycket liten egen CSS eftersom ramverket täcker så mycket av den styling och framförallt responsiviteten jag önskade. 
-                Jag uppskattade framför allt klassen <b>container</b> som sköter responsivitet och det var även trevligt med den kombinerade
-                bakgrundfärg- och textklassen <b>bg-text</b>! Ett plus är också att Bootstrap använder Helvetica Neue, ett stilrent och 
-                behagligt typsnitt som tillsammans med en radhöjd på 1.6 ger en god läsbarhet vid mycket text. 
-                <br>
-                <br>
-                Det finns inte mycket jag saknat från Bootstrap i detta moment, förutom att jag möjligtvis hade sett en mer nybörjarvänlig 
-                och förenklad version av dokumentationen utan så stort fokus på modifiering med SASS. En sådan version hade kunnat ge mer grundläggande 
-                information om Bootstrap-klasser och erbjudit exempel på enklare tillämpningar för en nybörjare, som jag i många avseeende
-                fortfarande är. Utöver det har det varit otroligt kul och smidigt att arbeta med Bootstrap och dra nytta av alla gratis-alternativ 
-                som ramverket erbjuder. En stor fördel har också varit att kunna hålla majoriteten av koden och styling på ett och samma ställe i HTML-dokumentet, vilket ger en 
-                tydligare överblick. Jag ser definitivt fram emot att arbeta mer med Bootstrap!
-            </p>
+            <div class="d-flex flex-wrap mt-5">
+                <p>
+                    På denna undersida har det populära och välanvända ramverket Bootstrap använts via CDN. Ramverkets styrka
+                    ligger i dess omfattande stöd för moderna webbläsare och förinställda, responsiva stilar och komponenter
+                    som gör det snabbt och smidigt att utveckla professionella webbsidor. Bootstrap har en gedigen
+                    <a href="https://getbootstrap.com/">dokumentation</a> som ger en tydlig introduktion till hur allt fungerar
+                    med särskilt fokus på hur modifiering av style kan göras med Sass. Men då dokumentationen är stor och mycket detaljerad,
+                    innebar det att det tog en del tid att hitta de specifika klasser som behövdes för att hantera tabeller,
+                    formulär, samt anpassningar för margin, padding och färg. Där visade sig W3Schools
+                    <a href="https://www.w3schools.com/bootstrap5/index.php">Bootstrap-tutorial</a> vara ett effektivt stöd för
+                    mig och utifrån denna kunde jag sedan jobba mer fokuserat med tabellen, formuläret, färgsättning och strukturering.
+                    <br>
+                    <br>
+                    Arbetet med formuläret krävde lite extra tid, särskilt eftersom formulär i Bootstrap behöver en
+                    specifik struktur för att fungera vilken var ny för mig. Tabellen var däremot lätt att anpassa med olika klasser för färg, 
+                    hover-effekter och ramar, vilket gjorde att jag tog mig tid att utforska olika designalternativ. Tack vare Bootstrap 
+                    behövde jag mycket liten egen CSS eftersom ramverket täcker så mycket av den styling och framförallt responsiviteten jag önskade.
+                </p>
+                <p>
+                    Jag uppskattade framför allt klassen <b>container</b> som sköter responsivitet och det var även trevligt med den kombinerade
+                    bakgrundfärg- och textklassen <b>bg-text</b>! Ett plus är också att Bootstrap använder Helvetica Neue, ett stilrent och 
+                    behagligt typsnitt som tillsammans med en radhöjd på 1.6 ger en god läsbarhet vid mycket text. 
+                    <br>
+                    <br>
+                    Det finns inte mycket jag saknat från Bootstrap i detta moment, förutom att jag möjligtvis hade sett en mer nybörjarvänlig 
+                    och förenklad version av dokumentationen utan så stort fokus på modifiering med SASS. En sådan version hade kunnat ge mer grundläggande 
+                    information om Bootstrap-klasser och erbjudit exempel på enklare tillämpningar för en nybörjare, som jag i många avseeende
+                    fortfarande är. Utöver det har det varit otroligt kul och smidigt att arbeta med Bootstrap och dra nytta av alla gratis-alternativ 
+                    som ramverket erbjuder. En stor fördel har också varit att kunna hålla majoriteten av koden och styling på ett och samma ställe i HTML-dokumentet, vilket ger en 
+                    tydligare överblick. Jag ser definitivt fram emot att arbeta mer med Bootstrap!
+                </p>
+            </div>
         </div>
 
-        <div class="container table-responsive pb-5">
+        <div class="container table-responsive pb-3">
             <h3 class="text-bg-dark">Julfilmer</h3>
 
             <table class="table table-bordered table-hover">
@@ -190,7 +194,7 @@
                     <label class="form-label" for="review">Recension:</label>
                     <textarea class="form-control" id="review"></textarea>
                 </div>
-                <input class="btn btn-primary mb-5" type="submit" value="Lägg till">
+                <input class="btn btn-primary mb-2" type="submit" value="Lägg till">
             </form>
         </div>
     </main>
