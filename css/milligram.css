@@ -31,7 +31,6 @@ nav {
 /* Länkar. */
 a {
     color: #ffffff;
-    font-weight: bold;
     padding: 0 0.5rem 0 0.5rem;
     text-decoration: underline;
 }
@@ -55,7 +54,7 @@ h3 {
 }
 
 p:not(footer p) {
-    max-width: 57ch;
+    max-width: 60ch;
     margin: 0 0 3rem 0;
 }
 

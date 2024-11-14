@@ -1,0 +1,58 @@
+/* Body. */
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header och footer. */
+header,
+footer {
+    padding: 1rem;
+}
+
+/* Footer, margin. */
+footer {
+    margin-top: auto;
+}
+
+/* Navigation. */
+.nav {
+    margin: 0 0 3rem 0;
+}
+
+/* Länkar. */
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #00ffff;
+}
+
+/* Aktiv länk. */
+.active {
+    color: #ffff00;
+}
+
+/* Rubriker och paragrafer. */
+h3 {
+    padding: 0.5rem;
+}
+
+p:not(footer p) {
+    max-width: 60ch;
+    margin: 2rem 0 3rem 0;
+}
+
+/* Style för större skärmar. */
+@media (min-width: 769px) {
+
+    h2 {
+        text-align: center;
+    }
+
+    p:not(footer p) {
+        margin: 2rem auto 3rem auto;
+    }
+}

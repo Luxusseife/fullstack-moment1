@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    
     <header>
         <h1>CSS-RAMVERK</h1>
     </header>
@@ -18,9 +19,10 @@
     <main>
         <nav>
             <a href="index.html">STARTSIDA</a>
+            <a href="publication.html">PUBLICERING</a>
             <a href="milligram.html" class="active">MILLIGRAM</a>
             <a href="bootstrap.html">BOOTSTRAP</a>
-            <a href="publication.html">PUBLICERING</a>
+            
         </nav>
 
         <div class="about">
@@ -39,19 +41,17 @@
                 <br>
                 <br>
                 Milligram använder typsnittet Roboto för rubrikerna 1–6 och för övrig text, med en radhöjd på 1,6,
-                vilket bidrar till god läsbarhet och en användarvänlig layout. Ramverket är kompatibelt med de
-                vanligaste webbläsarna, vilket är en klar fördel för ett sånt här litet ramverk. Dokumentationen är 
-                dessutom, precis som själva ramverket, mycket minimalistisk, vilket gör den enkel att följa och förstå. 
+                vilket bidrar till god läsbarhet och en användarvänlig layout även om default-texten är mer grå än svart. 
+                Ramverket är kompatibelt med de vanligaste webbläsarna, vilket är en klar fördel för ett sånt här litet 
+                ramverk.<a id="link" href="https://milligram.io/">Dokumentationen</a>är dessutom, precis som själva ramverket, 
+                mycket minimalistisk, vilket gör den enkel att följa och förstå. 
                 <br>
                 <br>
                 Det är bra att Milligram erbjuder en färdig design för grid men jag hade även önskat en fördefinierad 
                 design för flexbox, något jag ofta arbetar med och gillar, men som ibland kan upplevas något provocerande.
                 Något jag även hade uppskattat är en max-width på både tabeller och formulär för större skärmar, då 100% 
-                viewwidth blir väldigt utdraget, särskilt för stora skärmar. 
-                <br>
-                <br>
-                Generellt var min upplevese av Milligram väldigt bra. Det är ett otroligt smidigt och enkelt CSS-ramverk 
-                att använda som nybörjare, särskilt med tydlig dokumentation på<a id="link" href="https://milligram.io/">Milligrams webbplats.</a>
+                viewwidth blir väldigt utdraget, särskilt för stora skärmar. Men generellt var min upplevese av Milligram 
+                väldigt bra och det är ett otroligt smidigt och enkelt CSS-ramverk att använda som nybörjare.
             </p>
         </div>
 
@@ -150,12 +150,19 @@
                     <label>Genre:</label>
                     <input type="checkbox" id="genre-comedy">
                     <label class="label-inline" for="genre-comedy">Komedi</label>
+                  
                     <input type="checkbox" id="genre-drama">
                     <label class="label-inline" for="genre-drama">Drama</label>
+                    
                     <input type="checkbox" id="genre-adventure">
                     <label class="label-inline" for="genre-adventure">Äventyr</label>
-                    <br>
-                    <br>
+                    
+                    <input type="checkbox" id="genre-romance">
+                    <label class="label-inline" for="genre-romance">Romantik</label>
+                   
+                    <input type="checkbox" id="genre-action">
+                    <label class="label-inline" for="genre-action">Action</label>
+                    
                     <label for="review">Recension:</label>
                     <textarea id="review"></textarea>
                     <br>
